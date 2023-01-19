@@ -1,7 +1,6 @@
-.body {
-	/**background-color: rgb(42,42,108);
-	background-color: linear-gradient(135deg, rgba(42,42,108,1) 35%, rgba(237,100,204,1) 100%);**/
-	background-color: rgb(42,42,108);
+body {
+	background: rgb(42,42,108);
+	background: linear-gradient(135deg, rgba(42,42,108,1) 35%, rgba(237,100,204,1) 100%);
 	font-family: 'Encode Sans Expanded', sans-serif;
 	font-weight:200;
 	font-size:1em;
@@ -10,7 +9,7 @@
 
 .main-container {
 	background-color:white;
-	margin: 0 10 0 10;
+	margin: 0px 10px 0px 10px;
 	max-width: 70%;
 }
 
