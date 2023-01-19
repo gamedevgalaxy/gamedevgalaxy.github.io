@@ -1,0 +1,77 @@
+.body {
+	background: rgb(42,42,108);
+	background: linear-gradient(135deg, rgba(42,42,108,1) 35%, rgba(237,100,204,1) 100%);
+	font-family: 'Encode Sans Expanded', sans-serif;
+	color:#545454;
+}
+
+.main-container {
+	background-color:white;
+	margin: 0 10 0 10;
+	max-width: 100%;
+}
+
+
+.tagline{
+	color:#614682;
+	font-style:italic;
+}
+
+.data {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.flex-container {
+
+}
+
+.container {
+
+}
+
+.portrait {
+
+}
+
+.bio {
+
+}
+
+header {
+	text-align:center;
+}
+
+footer {
+	text-align:center;
+}
+
+
+h1 {
+	color:#614682;
+	letter-spacing:0.9rem;
+	font-weight:500;
+	font-family: 'Turret Road', cursive;
+}
+
+h3 {
+	color:#614682;
+	text-align:center;
+	text-decoration:underline;
+	font-weight:800;
+	font-family: 'Turret Road', cursive;
+}
+p {
+	letter-spacing:0.05rem;
+}
+
+a {
+	-webkit-transition: color 1s;
+	transition: color 2s;
+	color:#614684;
+	text-decoration:underline;
+
+}
+
+a:hover {
+	color:red;
+}
