@@ -1,15 +1,17 @@
 .body {
+	/**background-color: rgb(42,42,108);
+	background-color: linear-gradient(135deg, rgba(42,42,108,1) 35%, rgba(237,100,204,1) 100%);**/
 	background-color: rgb(42,42,108);
-	background-color: linear-gradient(135deg, rgba(42,42,108,1) 35%, rgba(237,100,204,1) 100%);
 	font-family: 'Encode Sans Expanded', sans-serif;
 	font-weight:200;
+	font-size:1em;
 	color:#545454;
 }
 
 .main-container {
 	background-color:white;
 	margin: 0 10 0 10;
-	max-width: 100%;
+	max-width: 70%;
 }
 
 
@@ -22,7 +24,7 @@
 	font-family: 'Work Sans', sans-serif;
 }
 
-.flex-container {
+/*.flex-container {
 
 }
 
@@ -36,7 +38,7 @@
 
 .bio {
 
-}
+}*/
 
 .q {
 	color:#614682;
