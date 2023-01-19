@@ -1,7 +1,8 @@
 .body {
-	background: rgb(42,42,108);
-	background: linear-gradient(135deg, rgba(42,42,108,1) 35%, rgba(237,100,204,1) 100%);
+	background-color: rgb(42,42,108);
+	background-color: linear-gradient(135deg, rgba(42,42,108,1) 35%, rgba(237,100,204,1) 100%);
 	font-family: 'Encode Sans Expanded', sans-serif;
+	font-weight:200;
 	color:#545454;
 }
 
@@ -37,6 +38,11 @@
 
 }
 
+.q {
+	color:#614682;
+	font-family: 'Work Sans', sans-serif;
+	font-weight:300;
+}
 header {
 	text-align:center;
 }
