@@ -12,18 +12,18 @@ body {
 .main-container {
 	box-sizing:border-box;
 	position:relative;
-	background-color:white;
-	opacity:0.9;
+	background-color:rgba(255,253,247,0.902);
+	border: 1px solid #9b21f2;
 	margin: 0 auto;
 	width:auto;
-	padding:2em;
-	max-width: 70%;
+	padding:0 3em;
+	max-width: 74%;
 	overflow:hidden;
 	font-family: 'Encode Sans Expanded', sans-serif;
 	font-weight:300;
 	font-size:1.5em;
 	letter-spacing:0.5rem;
-	line-height:1.6;
+	line-height:1.5em;
 	color:#545454;
 }
 
@@ -33,6 +33,7 @@ body {
 	color:#614682;
 	font-family: 'Work Sans', sans-serif;
 	font-size:1em;
+	padding:0 3em;
 }
 
 .data {
@@ -44,10 +45,20 @@ body {
  	display:flex;
  	flex-direction:row;
  	flex-wrap:wrap;
+ 	align-items:center;
+ 	margin:auto;
+ 	padding:0 5rem;
 }
 
 .portrait {
 	width:25%;
+}
+
+.portrait img {
+	border-radius:35%;
+	border:none;
+	width:75%;
+	margin:0;
 }
 
 .bio {
@@ -63,33 +74,51 @@ body {
 
 
 .title {
-	/**flex-wrap:wrap;**/
-	/**display:flex;**/
+	flex-wrap:nowrap;
+	display:flex;
+	flex-diretion:row;
 	align-items:center;
-	margin: 0 auto;
+	padding:0 2em;
+	margin:0 auto;
 
 }
 
 .divider {
 	color:#614682;
+	font-size:1.3em;
 }
 
 .buttons {
 	margin:2em;
 }
+.star1, .star2 {
+	width:30%;
+}
+
+.gdg {
+	width:30%;
+}
 
 .socials {
 	margin:2em;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	align-items: center;
+	justify-content: center;
 }
 
 .socials a {
 	border-radius:100%;
 	border:none;
-	margin:auto;
-	width:2em;
-	height:2em;
-	padding:0.5em;
+	width:2.5em;
+	height:2.5em;
+	margin: 0.5em;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
 	align-items: center;
+	justify-content: center;
 	background-color:#D5AFED;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
@@ -100,6 +129,17 @@ body {
 
 .socials a:hover {
 	background-color:#f49ca9;
+}
+
+.socials img {
+	width:60%;
+	box-sizing:border-box;
+	position:relative;
+	display:block-inline;
+}
+
+.test:before {
+	background:#614684;
 }
 
 header {
@@ -116,6 +156,7 @@ h1 {
 	font-size:3em;
 	color:#614682;
 	letter-spacing:1rem;
+	line-height:1.3em;
 	font-weight:500;
 	font-family: 'Turret Road', cursive;
 	margin:0 auto;
