@@ -23,7 +23,7 @@ body {
 	overflow:hidden;
 	font-family: 'Encode Sans Expanded', sans-serif;
 	font-weight:300;
-	font-size:1.5em;
+	font-size:1.2em;
 	letter-spacing:0.5rem;
 	line-height:1.5em;
 	color:#545454;
@@ -41,6 +41,7 @@ body {
 	font-family: 'Work Sans', sans-serif;
 	font-size:1em;
 	padding:0 3em;
+	
 }
 
 .data {
@@ -54,7 +55,7 @@ body {
  	flex-direction:row;
  	flex-wrap:wrap;
  	align-items:center;
- 	margin: auto;
+ 	margin: 1em auto;
  	padding:0 5rem;
 }
 
@@ -101,10 +102,12 @@ body {
 }
 .star1, .star2 {
 	width:30%;
+	margin:auto;
 }
 
 .gdg {
 	width:30%;
+	margin:Auto;
 }
 
 .socials {
@@ -148,6 +151,10 @@ body {
 
 .test:before {
 	background:#614684;
+}
+
+.space {
+	margin:2em;
 }
 
 header {
