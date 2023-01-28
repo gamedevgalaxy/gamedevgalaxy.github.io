@@ -67,7 +67,11 @@ body {
 	border-radius:35%;
 	border:none;
 	width:70%;
-	margin:0;
+	margin:auto;
+}
+
+.portrait a {
+	display:flex;
 }
 
 .bio {
@@ -314,7 +318,9 @@ strong {
         display: flex;
         flex-direction:column;
         padding:2em;
+        align-items:center;
     }
+
 
     .portrait {
     	width:70%;
